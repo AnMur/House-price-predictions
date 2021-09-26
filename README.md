@@ -1,19 +1,14 @@
 
 
 
-# Andrei Muravev¶
+# Andrei Muravev
 
 ### - Houses Price prediction in Ames,Iowa
 ### - Regression Challenge
 
 
 
-## Table of content:
-
-- Problem tatement
--Data sources
-
- ## Problem Statement
+ ## Problem Statement:
 
    Ask a home buyer to describe their dream house, and they probably won't begin with the height of the basement, ceiling or the proximity to the railroad. But these factors could affect the price of homes dramatically. To establish correlations, we  need to do a deep reserch of trends and habbits how, where and why people buy certain home. In my opinion, results could be extremely valuable for real estate, construction companies, financial sector and for everyone who want to buy, rent or sell residential or business properties.
 
@@ -28,7 +23,7 @@
 
 
 
- ##  Data sources
+ ##  Data sources:
 
 * [`train.csv`](./datasets/train.csv): the training datasets with multiple features and salaprice
 * [`test.csv`](./datasets/test.csv): the test test, doesn't include the salaprice
@@ -38,7 +33,7 @@
 
 
   
- ## Project Map
+ ## Workflow:
  
  
  #### Import Datasets and packages
@@ -97,21 +92,15 @@
  
  
  
- ## Kaggle Predictions and Submission
+ ## Kaggle Predictions and Submission:
  
  - Use test set and run predictions on best model
  - Create a kuggle submission variable from ID and SalePrice
  - Save new csv and submit to Kaggle
  
+
  
- ### Plot Models
- 
- 
- 
- 
- 
- 
- ##  Conclusion and Bussiness Recommendations
+ ##  Conclusion and Bussiness Recommendations:
  
 #### Based on my research, the  following recommendations could be considered:
 
@@ -132,9 +121,10 @@
  7. At the beginning of my modeling, only 6 best features were used choosen from pairplots and heatmap. My model fitted my data with %82 accuracy. And, my errors of predicted price would fluctuate in a range of 32800. After dummies split, I included 7 other dummy's features and a few numeric columns.  The accuracy of my model  increased to %88, and errors of  predicted price dropped to 26900. 
 
  
+ 8. In the future, more research could be done in exploring  infrastructure and areas where these homes were sold. For example, effect of schools, public transportation, hospitals, parks, distance from downtown and other features.
+
 ##### To summarize everything in one sentence, I'd recommend 3-bedroom houses with two baths in Northridge neighborhood with excellent kitchen quality, paying particular attention to special attributes such as garage and basement sq ft. 
 
- In the future, more research could be done in exploring  infrastructure and areas where these homes were sold. For example, effect of schools, public transportation, hospitals, parks, distance from downtown and other features.
 
 
 
